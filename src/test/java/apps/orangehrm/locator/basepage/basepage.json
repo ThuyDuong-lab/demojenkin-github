@@ -1,0 +1,6 @@
+{
+  "pageTitleText": "//h6[text()='%s']",
+  "leftMenuItemText": "//span[text()='%s']",
+  "topMenuItemText":  "//a[text()='%s']"
+
+}

@@ -1,0 +1,8 @@
+{
+  "vacancyNameTextbox": "//div[*[text()='Vacancy Name']]/following-sibling::div/input",
+  "jobTitleComboBox": "//div[*[text()='Job Title']]/following-sibling::div",
+  "hiringManagerTextbox": "//div[*[text()='Hiring Manager']]/following-sibling::div//input",
+  "saveButton":  "//button[@type='submit']",
+  "jobTitleText":  "//span[text()='%s']",
+  "jobTitleArrow": "//i[contains(@class,'down-fill oxd-select')]"
+}

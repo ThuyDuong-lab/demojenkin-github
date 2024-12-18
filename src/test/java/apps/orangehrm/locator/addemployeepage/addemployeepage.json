@@ -1,0 +1,9 @@
+{
+  "firstName": "//input[@name='firstName']",
+  "middleName": "//input[@name='middleName']",
+  "lastName":  "//input[@name='lastName']",
+  "employeeImage":  "//img[@class='employee-image']",
+  "saveButton": "//button[@type='submit']",
+  "formTitle":  "//h6[text()='Add Employee']",
+  "savedEmployeeMessage":  "//p[contains(@class,'toast-message')]"
+}

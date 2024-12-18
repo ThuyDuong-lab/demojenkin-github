@@ -1,0 +1,4 @@
+{
+  "leaveTypeComboBox": "//div[*[text()='Leave Type']]/following-sibling::div",
+  "leaveTypeItemText":  "//span[text()='%s']"
+}
