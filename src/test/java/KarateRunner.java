@@ -8,6 +8,6 @@ public class KarateRunner {
             throw new IllegalArgumentException("Error");
         }
         String fileName = filePath.replace('\\', '/');
-        return Karate.run(fileName).relativeTo(KarateRunner.class);
+        return Karate.run("testcases\\orangehrm\\TC_001").relativeTo(KarateRunner.class);
     }
 }
