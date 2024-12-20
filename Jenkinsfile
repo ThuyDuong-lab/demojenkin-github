@@ -24,12 +24,6 @@ pipeline {
       }
     }
 
-    stage('wait to complete') {
-      steps {
-        waitForBuild '1'
-      }
-    }
-
     stage('Send mail') {
       steps {
         mail(subject: 'Announcement - Run completely', body: 'CICD run done', to: 'thuy.phuong.duong@agest.vn')
