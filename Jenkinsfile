@@ -29,12 +29,6 @@ pipeline {
       }
     }
 
-    stage('Send mail') {
-      steps {
-        mail(subject: 'Announcement - Run completely', body: 'CICD run done', to: 'thuy.phuong.duong@agest.vn')
-      }
-    }
-
     stage('Final') {
       steps {
         echo 'run completely'
