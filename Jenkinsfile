@@ -11,9 +11,9 @@ pipeline {
         }
 
         stage('pipeline2') {
-          // steps {
-          //   bat "mvn test -Dtest=KarateRunner"
-          // }
+           steps {
+             bat "mvn test -Dtest=KarateRunner1"
+           }
         }
 
         stage('pipeline3') {
