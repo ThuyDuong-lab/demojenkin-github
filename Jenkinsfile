@@ -6,19 +6,19 @@ pipeline {
       parallel {
         stage('Pipeline1') {
           steps {
-            bat "mvn test -Dtest=KarateRunner1"
+            bat "mvn test -Dtest=KarateRunner"
           }
         }
 
         stage('pipeline2') {
           steps {
-            bat "mvn test -Dtest=KarateRunner2"
+            bat "mvn test -Dtest=KarateRunner"
           }
         }
 
         stage('pipeline3') {
           steps {
-            bat "mvn test -Dtest=KarateRunner3"
+            bat "mvn test -Dtest=KarateRunner"
           }
         }
 
