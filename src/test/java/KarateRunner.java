@@ -4,12 +4,14 @@ public class KarateRunner {
     @Karate.Test
     Karate runTest() {
 
-//        String filePath = System.getProperty("karate.test");
-//        if (filePath == null || filePath.isEmpty()) {
-//            throw new IllegalArgumentException("Error");
-//        }
-//        String fileName = filePath.replace('\\', '/');
-//        return Karate.run(fileName).relativeTo(KarateRunner.class);
-        return Karate.run("testcases/orangehrm/TC_001").relativeTo(KarateRunner.class);
+        String filePath = System.getProperty("karate.test");
+        if (filePath == null || filePath.isEmpty()) {
+            throw new IllegalArgumentException("Error");
+        }
+        String fileName = filePath.replace('\\', '/');
+        return Karate.run(fileName).relativeTo(KarateRunner.class);
+
+//        return Karate.run("testcases/orangehrm/TC_001").relativeTo(KarateRunner.class);
+
     }
 }
